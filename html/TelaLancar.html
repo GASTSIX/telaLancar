@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelaLancar</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/lancar.css">
+    <script src="../js/lancar.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="lancar_botao-nav">
+            <img class="lancar_logo" src="../img/logo.png" alt="">
+            <h1>Lançar Pedido Manual</h1>
+        </nav>
+    </header>
+
+    <main class="lancar_banner">
+    <section class="lancar_section_formulario">
+        <form class="lancar_formulario_central">
+            <div class="lancar_div__alinhamento_campos">
+                <label for="input__codigo_produto">Cod.do produto:</label>
+                <input type="text" name="input__codigo_produto" id="">
+            </div>
+            <div class="lancar_div__alinhamento_campos">
+                <label for="input__num_pedido">Num.Pedido:</label>
+                <input type="text" name="input__num_pedido" id="">
+            </div>
+            <div class="lancar_div__alinhamento_campos">
+                <label for="input__operador">Operador:</label>
+                <input type="text" name="input__operador" id="">
+            </div>
+            <div class="lancar_div__alinhamento_campos">
+                <label for="input__supervisor">Supervisor:</label>
+                <input type="text" name="input__supervisor" id="">
+            </div>
+            <div class="lancar_div__alinhamento_campos">
+                <label for="input__justificativa">Justificativa:</label>
+                <input class="justificativa" type="text" name="input__justificativa" id="">
+            </div>
+            <button class="lancar_botao" type="submit">Lançar</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
