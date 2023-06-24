@@ -268,7 +268,6 @@ hr {
 }
 
 .lancar_botao {
-    background-color: burlywood;
     height: 40px;
     width: 120px;
     border-radius: 10px;
@@ -287,7 +286,7 @@ hr {
 @media screen and (max-width: 768px) {
 
     h1{
-        font-size: 15px;
+        font-size: 20px;
     }
     /* INICIO MENU INTERATIVO*/
     .menu_lateral{
@@ -299,7 +298,7 @@ hr {
         top: 90px; 
     }
     .menu_lateral a {
-        font-size: 10px;
+        font-size: 15px;
         padding: 10px;  
     }
     .menu_lateral a img{
@@ -337,7 +336,7 @@ hr {
     text-transform: uppercase;
     text-decoration: none;
     padding: 7px;
-    font-size: 10px; 
+    font-size: 12px; 
 } 
 
 /*MENU ESTOQUE*/
